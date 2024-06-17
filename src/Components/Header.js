@@ -66,7 +66,7 @@ class Header extends Component {
                   <i className="fa fa-book"></i>Contact
                 </a>
                 <a className="button btn github-btn">
-                  <i className="fa fa-github"></i>Read Nire
+                  <i className="fa fa-github"></i>Read More
                 </a>
               </ul>
             </Fade>
