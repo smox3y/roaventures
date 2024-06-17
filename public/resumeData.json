@@ -1,184 +1,136 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
+    "name": "ROA VENTURES",
+    "description": "Building the Communities of Tomorrow",
+    "image": "profilepic.jpg",
+    "bio": "At ROA Ventures, we are dedicated to designing and developing innovative real estate projects that shape the communities of the future. Our focus is on creating sustainable, technologically advanced, and inclusive living spaces that enhance the quality of life for residents.",
+    "contactmessage": "We would love to hear from you! Whether you're interested in our projects, looking to invest, or simply want to learn more about our mission, please get in touch with us.",
+    "email": "contact@roaventures.com",
     "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+    "github": "https://github.com/roaventures",
+    "project": "https://www.roaventures.com/projects",
+    "address": {
+      "street": "123 Future Street",
+      "city": "Innovation City",
+      "state": "CA",
+      "zip": "90210"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "website": "https://www.roaventures.com",
+    "resumedownload": "https://www.roaventures.com/resume.pdf",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "https://facebook.com/roaventures",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
+        "name": "twitter",
+        "url": "https://twitter.com/roaventures",
+        "className": "fa fa-twitter"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/company/roaventures",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
+        "name": "instagram",
+        "url": "https://instagram.com/roaventures",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/roaventures",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+  "resume": {
+    "skillmessage": "Our team possesses a diverse set of skills that are essential in creating cutting-edge real estate developments. From architectural design to sustainable construction practices, we are equipped to handle every aspect of modern community building.",
+    "education": [
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "University of Urban Development",
+        "degree": "Masters in Urban Planning",
+        "graduated": "April 2017",
+        "description": "Focused on sustainable urban development, advanced planning techniques, and community engagement."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Institute of Real Estate Studies",
+        "degree": "Bachelor of Science in Real Estate",
+        "graduated": "March 2013",
+        "description": "Studied market analysis, property development, and real estate law."
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Innovative Architecture Group",
+        "title": "Senior Project Manager",
+        "years": "March 2018 - Present",
+        "description": "Led numerous high-profile projects aimed at creating sustainable and technologically integrated communities. Implemented innovative design solutions and managed cross-functional teams."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Future Realty Solutions",
+        "title": "Junior Development Specialist",
+        "years": "March 2017 - February 2018",
+        "description": "Assisted in the planning and execution of residential and commercial real estate projects. Conducted market research and feasibility studies."
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Python",
-        "level":"60%"
+        "name": "Urban Planning",
+        "level": "90%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name": "Sustainable Design",
+        "level": "85%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name": "Project Management",
+        "level": "80%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name": "Market Analysis",
+        "level": "75%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "name": "Community Engagement",
+        "level": "80%"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "name": "Technological Integration",
+        "level": "70%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name": "Construction Management",
+        "level": "85%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Future Living Complex",
+        "category": "A groundbreaking residential development featuring smart home technologies and sustainable design.",
+        "image": "01.jpg",
+        "url": "https://www.roaventures.com/projects/future-living-complex"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Green City Initiative",
+        "category": "An urban renewal project focused on creating green spaces and eco-friendly infrastructure.",
+        "image": "02.jpg",
+        "url": "https://www.roaventures.com/projects/green-city-initiative"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Tech Hub Community",
+        "category": "A mixed-use development designed to foster innovation and collaboration among tech companies.",
+        "image": "03.jpg",
+        "url": "https://www.roaventures.com/projects/tech-hub-community"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Smart City Prototype",
+        "category": "A visionary project that integrates advanced technologies for a fully connected urban experience.",
+        "image": "04.jpg",
+        "url": "https://www.roaventures.com/projects/smart-city-prototype"
       }
     ]
   }
