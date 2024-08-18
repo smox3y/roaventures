@@ -7,6 +7,9 @@ import "slick-carousel/slick/slick-theme.css";
 class Resume extends Component {
   render() {
     if (!this.props.data) return null;
+    const blitz = "images/" + this.props.data.image;
+    const group = "images/" + this.props.data.image;
+    const Image = "images/" + this.props.data.image;
 
     const work = [
       {
@@ -48,9 +51,9 @@ class Resume extends Component {
 
     // Image URLs for the slider
     const images = [
-      "url_to_image1.jpg",
-      "url_to_image2.jpg",
-      "url_to_image3.jpg",
+      {blitz},
+      {group},
+      {Image},
       // Add more image URLs as needed
     ];
 
