@@ -2,14 +2,6 @@ import React, { Component } from "react";
 import Slide from "react-reveal";
 
 class Resume extends Component {
-  getRandomColor() {
-    let letters = "0123456789ABCDEF";
-    let color = "#";
-    for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-  }
   render() {
     if (!this.props.data) return null;
 
@@ -51,18 +43,20 @@ class Resume extends Component {
       },
     ];
 
-    const skills = this.props.data.skills.map((skills) => {
-      const backgroundColor = this.getRandomColor();
-      const className = "bar-expand " + skills.name.toLowerCase();
-      const width = skills.level;
-
-      return (
-        <li key={skills.name}>
-          <span style={{ width, backgroundColor }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
-      );
-    });
+    const moreInfo = [
+      {
+        title: "Pangea, Inc",
+        description: `Pangea was established with the mission of democratizing the influencer marketing industry. By creating a platform that is free to use, we lowered the barriers for small to medium businesses and mid-tier creators to engage in the creator economy. One of our significant impacts was on the music industry, where we bridged the gap between international creators and major labels, enabling global exposure. Our tools, such as BlitzPay.pro and Alito Champion Conversational AI, have been pivotal in enhancing financial equity and streamlining the deal-making process.`,
+      },
+      {
+        title: "The Culture Club",
+        description: `The Culture Club has been instrumental in inspiring global culture through creative content. By working with the world's most innovative minds, we not only provide affordable marketing services but also help creators build long-term careers. The development of software platforms under The Culture Club umbrella has enabled brands and creators to interact more efficiently, fostering a more inclusive creator economy. BlitzPay.pro, a product of The Culture Club, has advanced the financial equity of creators, and our AI tool, Alito Champion, has significantly increased brand deal revenues for our users.`,
+      },
+      {
+        title: "Rahra Co",
+        description: `Rahra Co focuses on the future of food, emphasizing sustainability and climate-conscious solutions. By collaborating with the Heartland team, we have been able to introduce vital nutrients into global diets more effectively. Our goal is to create food solutions that are not only healthier but also more accessible and affordable than traditional food manufacturing processes.`,
+      },
+    ];
 
     return (
       <section id="resume">
@@ -94,14 +88,17 @@ class Resume extends Component {
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
-                <span>Skills</span>
+                <span>More Info</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
-              <div className="bars">
-                <ul className="skills">{skills}</ul>
-              </div>
+              {moreInfo.map((info, index) => (
+                <div key={index}>
+                  <h3>{info.title}</h3>
+                  <p>{info.description}</p>
+                </div>
+              ))}
             </div>
           </div>
         </Slide>
