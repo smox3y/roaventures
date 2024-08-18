@@ -5,15 +5,14 @@
     "image": "profilepic.jpg",
     "bio": "At ROA Ventures, we are dedicated to designing and developing innovative real estate projects that shape the communities of the future. Our focus is on creating sustainable, technologically advanced, and inclusive living spaces that enhance the quality of life for residents.",
     "contactmessage": "We would love to hear from you! Whether you're interested in our projects, looking to invest, or simply want to learn more about our mission, please get in touch with us.",
-    "email": "contact@roaventures.com",
-    "phone": "555-555-5555",
-    "github": "https://github.com/roaventures",
-    "project": "https://www.roaventures.com/projects",
+    "email": "alex@thecultureclub.us",
+    "phone": "917-631-5694",
+    "github": "https://github.com/smox3y",
     "address": {
-      "street": "123 Future Street",
-      "city": "Innovation City",
-      "state": "CA",
-      "zip": "90210"
+      "street": "4705 Gibson St",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77007"
     },
     "website": "https://www.roaventures.com",
     "resumedownload": "https://www.roaventures.com/resume.pdf",
@@ -30,17 +29,17 @@
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/company/roaventures",
+        "url": "https://www.linkedin.com/in/thealexroa",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "https://instagram.com/roaventures",
+        "url": "https://instagram.com/omega.ventures",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/roaventures",
+        "url": "https://github.com/smox3y",
         "className": "fa fa-github"
       }
     ]
