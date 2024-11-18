@@ -12,7 +12,7 @@ class Header extends Component {
     const description = this.props.data.description;
 
     return (
-      <header id="home">
+      <header id="home" style={{ backgroundColor: "#333", color: "#fff" }}>
         <ParticlesBg type="circle" bg={true} />
 
         <nav id="nav-wrap">
@@ -23,7 +23,7 @@ class Header extends Component {
             Hide navigation
           </a>
 
-          <ul id="nav" className="nav">
+          <ul id="nav" className="nav" style={{ color: "#fff" }}>
             <li className="current">
               <a className="smoothscroll" href="#home">
                 Home
@@ -36,7 +36,6 @@ class Header extends Component {
               </a>
             </li>
 
-            
             <li>
               <a className="smoothscroll" href="#portfolio">
                 Works
