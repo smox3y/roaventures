@@ -39,7 +39,6 @@ const Gibson = () => {
             Located in Rice Military, Houston, Texas, Gibson Estates 2025 offers two exquisite townhomes designed for luxury living. With unobstructed views of Downtown Houston and the Galleria, these properties redefine modern elegance and convenience.
           </Typography>
 
-          <Divider />
 
           {/* Property Details */}
           <Box sx={{ my: 3 }}>
@@ -91,7 +90,6 @@ const Gibson = () => {
             </Box>
           </Box>
 
-          <Divider />
 
           {/* Call to Action */}
           <Box sx={{ my: 3 }}>
