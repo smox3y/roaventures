@@ -3,6 +3,7 @@ import { Box, Typography, Container } from "@mui/material";
 import ParticlesBg from "particles-bg";
 import { keyframes } from "@emotion/react";
 import Header from "../Components/Header";
+
 // Keyframes for animation
 const fadeIn = keyframes`
   from {
@@ -14,6 +15,7 @@ const fadeIn = keyframes`
     transform: translateY(0);
   }
 `;
+
 const headerData = {
   project: "Gibson Estates",
   name: "Gibson Estates 2025",
@@ -24,9 +26,9 @@ const Gibson = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#f5f5f5",
+        backgroundColor: "#e0e0e0", // Changed to a darker color for better contrast
         width: "100%",
-        color: "#000",
+        color: "#333", // Changed text color to dark gray
         minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
@@ -44,8 +46,6 @@ const Gibson = () => {
       >
         {/* Title Section */}
         <Box sx={{ mb: 4 }}>
-     
-
           {/* Hero Image */}
           <Box sx={{ textAlign: "center", mb: 3 }}>
             <img
@@ -56,7 +56,7 @@ const Gibson = () => {
           </Box>
 
           {/* Quick Facts */}
-          <Typography variant="body3" paragraph>
+          <Typography variant="body3" paragraph sx={{ color: "#333" }}>
             Located in Rice Military, Houston, Texas, Gibson Estates 2025 offers two exquisite townhomes designed for luxury living. With unobstructed views of Downtown Houston and the Galleria, these properties redefine modern elegance and convenience.
           </Typography>
 
@@ -65,7 +65,7 @@ const Gibson = () => {
             <Typography variant="h4" sx={{ fontWeight: "bold", mb: 2 }}>
               Property Highlights
             </Typography>
-            <Typography variant="body3" component="ul" sx={{ pl: 2 }}>
+            <Typography variant="body3" component="ul" sx={{ pl: 2, color: "#333" }}>
               <li>Total Living Area: 3,226 square feet</li>
               <li>Total Floor Area: 4,310 square feet</li>
               <li>Sale Price: $1.249 million</li>
@@ -90,10 +90,10 @@ const Gibson = () => {
             <Typography variant="h4" sx={{ fontWeight: "bold", mb: 2 }}>
               Luxury Features
             </Typography>
-            <Typography variant="body3" paragraph>
+            <Typography variant="body3" paragraph sx={{ color: "#333" }}>
               Each townhome in Gibson Estates is meticulously designed with the following luxury amenities:
             </Typography>
-            <Typography variant="body3" component="ul" sx={{ pl: 2 }}>
+            <Typography variant="body3" component="ul" sx={{ pl: 2, color: "#333" }}>
               <li>Modern open-concept living spaces</li>
               <li>Chef-inspired kitchen with state-of-the-art appliances</li>
               <li>Expansive rooftop terrace with breathtaking views</li>
@@ -114,7 +114,7 @@ const Gibson = () => {
             <Typography variant="h4" sx={{ fontWeight: "bold", mb: 2 }}>
               Ready to Own Luxury?
             </Typography>
-            <Typography variant="body3" paragraph>
+            <Typography variant="body3" paragraph sx={{ color: "#333" }}>
               Don’t miss the opportunity to own one of these stunning townhomes in the heart of Rice Military. Contact us today to schedule a private tour or for more information.
             </Typography>
             <Box sx={{ textAlign: "center", my: 3 }}>

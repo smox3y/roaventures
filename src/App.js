@@ -48,16 +48,19 @@ class App extends Component {
         <div className="App">
           <Routes>
             {/* Define routes for your pages */}
-            <Route path="/" element={
-              <>
-                <Header data={this.state.resumeData.main} />
-                <About data={this.state.resumeData.main} />
-                <Resume data={this.state.resumeData.resume} />
-                <Portfolio data={this.state.resumeData.portfolio} />
-                <Contact data={this.state.resumeData.main} />
-                <Footer data={this.state.resumeData.main} />
-              </>
-            } />
+            <Route
+              path="/"
+              element={
+                <>
+                  <Header data={this.state.resumeData.main} />
+                  <About data={this.state.resumeData.main} />
+                  <Resume data={this.state.resumeData.resume} />
+                  <Portfolio data={this.state.resumeData.portfolio} />
+                  <Contact data={this.state.resumeData.main} />
+                  <Footer data={this.state.resumeData.main} />
+                </>
+              }
+            />
             <Route path="/gibson" element={<Gibson />} /> {/* New route */}
           </Routes>
         </div>

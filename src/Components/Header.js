@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import { Link } from "react-router-dom";
 
 class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
@@ -25,27 +24,27 @@ class Header extends Component {
 
           <ul id="nav" className="nav" style={{ color: "#fff" }}>
             <li className="current">
-              <a className="smoothscroll" href="#home">
+              <Link className="smoothscroll" to="/">
                 Home
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#about">
+              <Link className="smoothscroll" to="/#about">
                 About
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
+              <Link className="smoothscroll" to="/gibson">
                 Works
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#contact">
+              <Link className="smoothscroll" to="/#contact">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -63,9 +62,9 @@ class Header extends Component {
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <Link className="smoothscroll" to="/#about">
             <i className="icon-down-circle"></i>
-          </a>
+          </Link>
         </p>
       </header>
     );
