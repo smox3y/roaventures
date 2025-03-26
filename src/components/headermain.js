@@ -145,13 +145,20 @@ const HeaderMain = () => {
               >
                 About
               </MenuItem>
+              <MenuItem
+                onClick={() => {
+                  navigate("/blog");
+                  handleMenuClose();
+                }}
+                sx={{ color: "#FFFFFF" }}
+              >
+                Blog
+              </MenuItem>
             </Menu>
           </>
         ) : (
           <>
-            <Box
-              sx={{ flexGrow: 1, display: "flex", justifyContent: "center" }}
-            >
+            <Box sx={{ flexGrow: 1, display: "flex", justifyContent: "center" }}>
               {/* Desktop Projects Button opens the dropdown */}
               <Button
                 color="inherit"
@@ -186,7 +193,7 @@ const HeaderMain = () => {
                   }}
                   sx={{ color: "#FFFFFF" }}
                 >
-                  Gibson
+                  Gibson Estates
                 </MenuItem>
               </Menu>
               <Button
@@ -218,6 +225,21 @@ const HeaderMain = () => {
                 onClick={() => navigate("/about")}
               >
                 About
+              </Button>
+              <Button
+                color="inherit"
+                style={{
+                  color: "#1D1E20",
+                  fontFamily: "Inter, sans-serif",
+                  fontSize: "20px",
+                  letterSpacing: "-0.04em",
+                  lineHeight: "129%",
+                  textTransform: "none",
+                  margin: "0 20px",
+                }}
+                onClick={() => navigate("/blog")}
+              >
+                Blog
               </Button>
             </Box>
           </>

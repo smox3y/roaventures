@@ -8,6 +8,7 @@ import PageTitle from './pagetitle';
 import Gibson from './Pages/projects/gibson';
 import About from './Pages/about';
 import Future from './Pages/projects/future';
+import Blog from './Pages/creative/blog';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/gibson" element={<><PageTitle title="" /><Gibson /></>} />
           <Route path="/about" element={<><PageTitle title="" /><About /></>} />
           <Route path="/Future" element={<><PageTitle title="" /><Future /></>} />
+          <Route path="/blog" element={<><PageTitle title="" /><Blog /></>} />
 
 
           <Route path="*" element={<><PageTitle title="404 Not Found" /><Navigate to="/" /></>} />

@@ -408,7 +408,8 @@ const Footer = () => (
 // ---------- Default Data ----------
 const defaultData = {
   name: "Alex Roa",
-  image: "profile.jpg", // Ensure this image is in your public/images folder
+  image:
+    "https://media.licdn.com/dms/image/v2/D5603AQF4WZ5WMP9MOg/profile-displayphoto-shrink_200_200/B56ZW_jhfCGQAY-/0/1742675517831?e=2147483647&v=beta&t=B3Qjx3_j7JtKvzHsSeAh6-_ixohBLki6_h4nWOoslS8",
   address: {
     street: "1239 Cedar Post Lane",
     city: "Houston",
@@ -425,38 +426,42 @@ const About = ({ data = defaultData }) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
-  const profilePic = `/images/${data.image}`;
+  // Use the external URL if provided
+  const profilePic =
+    data.image.startsWith("http") || data.image.startsWith("https")
+      ? data.image
+      : `/images/${data.image}`;
 
-  // Text blocks for each section
+  // Expanded text blocks for each section
   const aboutMeText =
-    "3 years ago, I started Pangea with the goal of inspiring global culture through democratizing the influencer marketing industry for creators and brands alike. Since then, our company has evolved into a multi-service and software solution firm.";
+    "I am Alex Roa, an entrepreneur with a passion for bridging creativity and technology. Three years ago, I founded Pangea with a vision to democratize influencer marketing, empowering both creators and brands to connect on a global scale. My journey is driven by a relentless pursuit of innovation and a commitment to building communities that thrive on creativity, sustainability, and forward-thinking strategies.";
+
   const pangeaText = (
     <>
-      At Pangea, our mission is to democratize the creator economy—enabling effective collaboration for businesses and creators alike.
-      <br />
-      <br />
-      A notable success is our impact on the music industry, where we’ve bridged international creators with major labels.
+      "Changing the World through Various Ventures" isn't just our tagline—it’s our mission. At Pangea, we stand at the crossroads of a generational revolution, incubating innovations that redefine the future of work. We serve as the incubation hub for Blitz, ensuring creators and entrepreneurs get paid on time; MYAH AI, empowering people to connect and build meaningful networks; and The Culture Club, where influence and creativity flourish. Essentially, Pangea acts as a holding company for all these groundbreaking ventures, uniting diverse industries to transform how we work, create, and connect.
     </>
   );
+    
   const cultureClubText = (
     <>
-      The Culture Club inspires global culture through captivating content and affordable creator marketing services.
-      <br />
-      <br />
-      We also help our creators build long-term careers with our extensive partnership network.
+      The Culture Club inspires global culture through captivating content and accessible creator marketing services. I believe that creative expression fuels progress, and with The Culture Club, I strive to provide a platform where artistic talents can thrive. Our extensive partnership network helps creators build sustainable careers and reach audiences worldwide.
     </>
   );
+
   const rahraCoText =
-    "Rahra Co, home to the Protein Party Co brand, is at the forefront of creating sustainable, climate-conscious food solutions.";
+    "Rahra Co, home to the Protein Party Co brand, is at the forefront of creating sustainable, climate-conscious food solutions. My involvement with Rahra Co reflects my commitment to innovation in the food industry, aiming to bring eco-friendly, healthy products to market while addressing global sustainability challenges.";
+
   const roaVenturesText =
-    "RΩA Ventures is a real estate collective focused on building community spaces with sustainable and innovative solutions.";
+    "RΩA Ventures is a real estate collective dedicated to building community spaces that merge sustainable practices with innovative design. Through RΩA Ventures, I work to reshape urban landscapes, fostering communities that thrive on creativity, sustainability, and forward-thinking strategies.";
+
   const cultureClubRecordsText =
-    "Culture Club Records, formerly a global artist incubator in collaboration with Sony Music's The Orchard, now rests within our broader ecosystem.";
+    "Culture Club Records, once a global artist incubator in collaboration with Sony Music's The Orchard, has evolved into a dynamic label that champions diverse voices and groundbreaking talent. This transformation mirrors my passion for music and the arts, as I continue to support emerging artists in reaching their full potential.";
 
   return (
     <>
       <HeaderMain />
       {/* Full-screen landing header */}
+      <LandingHeader />
 
       {/* Main content */}
       <Container maxWidth="lg">
