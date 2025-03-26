@@ -68,29 +68,7 @@ const Footer = () => (
 
   
 const blogPosts = [
-  {
-    id: 1,
-    title: "Exploring the Future of Technology",
-    summary: "A look into the emerging trends that are shaping our digital world.",
-    image: "/blogs/tech-future.jpg",
-    path: "/blog/exploring-future-of-technology",
-  },
-  {
-    id: 2,
-    title: "Sustainable Living in Modern Cities",
-    summary:
-      "How urban environments are evolving to embrace eco-friendly practices.",
-    image: "/blogs/sustainable-living.jpg",
-    path: "/blog/sustainable-living",
-  },
-  {
-    id: 3,
-    title: "The Art of Creative Innovation",
-    summary:
-      "Diving deep into how creativity drives technological advances.",
-    image: "/blogs/creative-innovation.jpg",
-    path: "/blog/creative-innovation",
-  },
+  
 ];
 
 const Blog = () => {
