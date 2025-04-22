@@ -179,7 +179,7 @@ const Gibson = () => {
           >
             <Box
               component="img"
-              src="https://storage.googleapis.com/blitzccmc.appspot.com/1/2c908f06bc295df85a2bdf487bfe188727fbf482-2.jpg"
+              src="https://storage.googleapis.com/blitzccmc.appspot.com/1/IMG_5046-min.jpeg"
               alt="Custom Interiors"
               sx={{
                 width: "100%",
@@ -204,7 +204,7 @@ const Gibson = () => {
           >
             <Box
               component="img"
-              src="https://ibb.co/Fbc0j7Qt"
+              src="https://storage.googleapis.com/blitzccmc.appspot.com/1/cbac82ebad965ee71268c062ec3f0817372fe257-1.jpg"
               alt="Rooftop Views"
               sx={{
                 width: "100%",
@@ -246,10 +246,7 @@ const Gibson = () => {
           </Grid>
         </Grid>
 
-        {/* Call to Action 
-        https://ibb.co/LhcrTBJ2
-https://ibb.co/dwLp5ZFm
-*/}
+        {/* Call to Action */}
         <Box sx={{ textAlign: "center", mb: 6 }}>
           <Typography
             variant="h4"
@@ -269,11 +266,9 @@ https://ibb.co/dwLp5ZFm
             of Rice Military. Contact us today to schedule a private tour or for more
             information.
           </Typography>
-
-
           <Box
             component="img"
-            src="https://ibb.co/390snKKN"
+            src="https://storage.googleapis.com/blitzccmc.appspot.com/1/IMG_5000-min.jpeg"
             alt="Schedule a Tour"
             sx={{
               maxWidth: { xs: "100%", md: "70%" },
