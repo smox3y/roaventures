@@ -44,7 +44,7 @@ const Gibson = () => {
           position: "relative",
           width: "100%",
           height: { xs: "60vh", md: "80vh" },
-          backgroundImage: `url("https://storage.googleapis.com/blitzccmc.appspot.com/1/9c1856ae6ada77e72b7bd78d9406fe2d37e2692f-1.jfif")`,
+          backgroundImage: `url("https://drive.google.com/file/d/1r2bvWn4UelgKcie8RO7TSWqBYVXQ1DOa/view?usp=sharing")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",
@@ -268,7 +268,7 @@ const Gibson = () => {
           </Typography>
           <Box
             component="img"
-            src="https://storage.googleapis.com/blitzccmc.appspot.com/1/0bbd98c93f51a943bcdd73c0c113bd61c86fc90c-2.jpg"
+            src="https://drive.google.com/file/d/1Dj67RQT2s71yeXa0fFr7TiCYrUKbRp6w/view?usp=sharing"
             alt="Schedule a Tour"
             sx={{
               maxWidth: { xs: "100%", md: "70%" },
